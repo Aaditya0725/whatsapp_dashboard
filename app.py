@@ -6,6 +6,7 @@ import seaborn as sns
 from textblob import TextBlob
 import emoji
 from collections import Counter
+from altair import Chart
 
 # Function to parse WhatsApp chat
 def parse_whatsapp_chat(file):
